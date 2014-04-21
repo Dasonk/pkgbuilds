@@ -8,7 +8,7 @@ pkgdesc="A new integrated development environment (IDE) for R (The preview binar
 arch=('x86_64') # May work for i686 but hasn't been tested
 license=('GPL')
 url="http://www.rstudio.org/ide/download/preview"
-depends=('r>=2.11.1' 'qtwebkit')
+depends=('r>=2.11.1' 'qtwebkit' 'shared-mime-info')
 conflicts=('rstudio-desktop' 'rstudio-desktop-git' 'rstudio-desktop-bin')
 provides=("rstudio-desktop=${pkgver}")
 options=(!strip)
