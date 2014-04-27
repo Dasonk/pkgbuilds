@@ -3,7 +3,7 @@
 
 pkgname=rstudio-desktop-preview-bin
 pkgver=0.98.806
-pkgrel=2
+pkgrel=1
 pkgdesc="A new integrated development environment (IDE) for R (The preview binary from the website)."
 arch=('x86_64') # May work for i686 but hasn't been tested
 license=('GPL')
