@@ -2,7 +2,7 @@
 # Contributor: Meow < meow at linux dot cn >
 
 pkgname=rstudio-desktop-preview-bin
-pkgver=0.98.834
+pkgver=0.98.836
 pkgrel=1
 pkgdesc="A new integrated development environment (IDE) for R (The preview binary from the website)."
 arch=('x86_64') # May work for i686 but hasn't been tested
@@ -12,8 +12,8 @@ depends=('r>=2.11.1' 'qtwebkit' 'shared-mime-info')
 conflicts=('rstudio-desktop' 'rstudio-desktop-git' 'rstudio-desktop-bin')
 provides=("rstudio-desktop=${pkgver}")
 options=(!strip)
-#_x86md5=c4b7e47406c21dbda248192c812fac01
-_x64md5=86667f4e41b20cb941d213132b35b0e6		
+#_x86md5=6e089ea5ee780ad2f347b35290da44a7
+_x64md5=d0fd2d118a02eb7d9a4365c386bd2eee		
 case "$CARCH" in
 #	'i686')
 		#_arch=i386
