@@ -1,6 +1,6 @@
 
 source:
-	makepkg --source -f
+	mkaurball
 	tar tf rstudio-desktop-preview-bin-*.src.tar.gz
 
 clean:
